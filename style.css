@@ -26,6 +26,9 @@ main {
 }
 .daniel-testinomy {
    color: hsl(214, 17%, 92%);
+   background-image: url("Assets/bg-pattern-quotation.svg");
+   background-repeat: no-repeat;
+   background-position: 90% 0%;
    background-color: hsl(263, 55%, 52%);
    grid-column: span 2;  
 }
@@ -94,7 +97,7 @@ main {
 .profile {
    display: flex;
    font-size: 14px;
-   margin: 25px 30px 0;
+   margin: 10px 20px 0;
    gap: 10px;
 }
 h1 {
