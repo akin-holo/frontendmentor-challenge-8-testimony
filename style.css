@@ -55,7 +55,6 @@ main {
 
 
 .kira-testinomy {
-
    color:  hsl(217, 19%, 35%);
    height: auto;
    background-color: hsl(0, 0%, 100%); 
@@ -110,8 +109,67 @@ img {
    border-radius: 50%;
 } 
 
-/* .first-comment */
-.second-comment {
-   /* color: hsl(224, 10%, 45%); */
-   /* margin: 20px; */
+         /* breakpoints */
+@media screen and (max-width: 901px) { 
+   body {
+      width: 100%; 
+   }
+
+   main {
+      margin: auto;
+   }
+   .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr); 
+      height: auto;
+      margin: 2rem 2rem 2rem 1rem;
+      gap: 30px;
+   }
+   .testimony {
+      height: auto;
+      font-size: 2em;
+   }
+
+   .first-comment {
+      font-size: 1.3em !important;
+   }
+   .second-comment {
+      width: 90%;
+   }
+}
+
+
+/* 320px to 600px */
+@media screen and (max-width: 700px) { 
+   body {
+      width: 100%; 
+   }
+
+   main {
+      display: block;
+      margin: auto;
+   }
+   .container {
+      height: auto;
+      margin: 1.5rem 1.5rem 1.5rem 0.5rem;
+      display: flex;
+      flex-direction: column;
+   }
+   .testimony {
+      height: auto;
+      font-size: 1.5em;
+   }
+
+   .second-comment {
+      width: 90%;
+   }
+
+   .kira-testinomy {
+      order: 1;
+   }
+
+   .patrick-testinomy {
+      order: 2;
+   }
 }
