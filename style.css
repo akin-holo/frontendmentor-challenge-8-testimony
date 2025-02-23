@@ -168,6 +168,10 @@ img {
       width: 90%;
    }
 
+   .daniel-testinomy {
+      background-image: none;
+   }
+
    .kira-testinomy {
       order: 1;
    }
