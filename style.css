@@ -1,0 +1,117 @@
+body {
+   background-color: hsl(214, 17%, 92%);
+   font-family: "Barlow Semi Condensed", serif;
+   font-weight: 400;
+   font-size: 13px;
+}
+
+main {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 3rem 2rem;
+}
+.container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(4, 1fr); 
+   height: 600px;
+   gap: 20px;
+   margin: 2rem;
+}
+.testimony {
+   color: #fff;
+   height: 290px;
+   border-radius: 10px;
+}
+.daniel-testinomy {
+   color: hsl(214, 17%, 92%);
+   background-color: hsl(263, 55%, 52%);
+   grid-column: span 2;  
+}
+.daniel-testinomy .first-comment {
+   color: #fff;
+   margin: 15px 30px 0;
+   font-weight: 500;
+   font-size: 20px;
+} 
+.daniel-testinomy .second-comment {
+   margin: 15px 30px 15px;
+}
+
+
+.jonanthan-testinomy {
+   background-color: hsl(217, 19%, 35%);
+}
+.jonanthan-testinomy .first-comment {
+   margin: 15px 30px 0;
+   font-weight: 500;
+   font-size: 20px;
+} 
+.jonanthan-testinomy .second-comment {
+   color: hsl(214, 17%, 92%);
+   margin: 15px 50px  15px 30px;
+}
+
+
+.kira-testinomy {
+
+   color:  hsl(217, 19%, 35%);
+   height: auto;
+   background-color: hsl(0, 0%, 100%); 
+   grid-row: span 2;
+}
+.jeanette-testinomy {
+   color:  hsl(217, 19%, 35%);
+   background-color: hsl(0, 0%, 100%); 
+}
+.kira-testinomy .first-comment,
+.jeanette-testinomy .first-comment{
+   color: hsl(219, 29%, 14%);
+   margin: 15px 30px 0;
+   font-weight: 500;
+   font-size: 20px;
+} 
+.kira-testinomy .second-comment,
+.jeanette-testinomy .second-comment{
+   margin: 15px 50px  15px 30px;
+}
+
+
+.patrick-testinomy {
+   color: hsl(0, 00%, 81%);
+   grid-column: span 2;   
+   background-color: hsl(0, 0%, 7%);
+}
+.patrick-testinomy .first-comment{
+   margin: 15px 30px 0;
+   font-weight: 500;
+   font-size: 20px;
+} 
+.patrick-testinomy .second-comment {
+   margin: 15px 50px  15px 30px;
+}
+
+.profile {
+   display: flex;
+   font-size: 14px;
+   margin: 25px 30px 0;
+   gap: 10px;
+}
+h1 {
+   font-size: 15px;
+   font-weight: bold;
+}
+h2 {
+   font-size: 14px;
+   font-weight: 500;
+}
+img {
+   border-radius: 50%;
+} 
+
+/* .first-comment */
+.second-comment {
+   /* color: hsl(224, 10%, 45%); */
+   /* margin: 20px; */
+}
